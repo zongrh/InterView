@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--补间动画的创建方式-->
+
+    <!--透明度动画
+    duration,动画运动时间
+    初始状态从哪一个透明度开始
+    结束状态从哪一个透明度结束
+    -->
+    <alpha
+        android:duration="300"
+        android:fromAlpha="0"
+        android:toAlpha="1"
+        />
+    <translate
+        android:duration="300"
+        android:fromXDelta="100%p"
+        android:toXDelta="0"
+        />
+</set>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/apptitle_root"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+    <TextView
+            android:id="@+id/app_title_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@mipmap/me_action"/>
+    <ImageView
+            android:id="@+id/app_title_defute_icon"
+            android:layout_width="30dp"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/app_icon"
+            android:layout_height="30dp"/>
+    <TextView
+            android:id="@+id/app_title_defute_text"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"
+            android:layout_toRightOf="@id/app_title_defute_icon"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="tilte"/>
+    <TextView
+            android:id="@+id/app_title_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="行动"
+            android:visibility="gone"/>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#d4d4d4"/>
+
+
+</RelativeLayout>
